@@ -118,3 +118,31 @@
 .hotwords a {
     margin-left: 14px;
 }
+
+.cart {
+    position: absolute;
+    right: 64px;
+    top: 25px;
+    width: 142px;
+    height: 38px;
+    border: 2px solid #bdbdbd;
+    line-height: 34px;
+    text-align: center;
+    color: #666666;
+    font-size: 12px;
+    background-color: #f7f7f7;
+}
+
+.cart::before {
+    font-family: icomoon;
+    content: "\e93b";
+    margin-right: 12px;
+    color: #b1191a;
+}
+
+.cart::after {
+    font-family: icomoon;
+    content: "\e920";
+    margin-left: 14px;
+    color: #bdbdbd;
+}
