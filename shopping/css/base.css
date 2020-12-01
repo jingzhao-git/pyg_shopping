@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* css3盒子模型 */
+    /* css3盒子模型 盒子大小为width，前提是padding和border不会撑大盒子*/
     box-sizing: border-box;
 }
 
